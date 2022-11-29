@@ -47,7 +47,7 @@ class Cycling extends Workout {
   constructor(coords, distance, duration, elevationGain) {
     super(coords, distance, duration);
     this.elevationGain = elevationGain;
-    // this.type = 'cycling';
+   
     this.calcSpeed();
     this._setDescription();
   }
@@ -101,7 +101,7 @@ class App {
   _loadMap(position) {
     const { latitude } = position.coords;
     const { longitude } = position.coords;
-    // console.log(`https://www.google.pt/maps/@${latitude},${longitude}`);
+    
 
     const coords = [latitude, longitude];
 
@@ -268,7 +268,8 @@ class App {
   }
 
   _moveToPopup(e) {
-    // BUGFIX: When we click on a workout before the map has loaded, we get an error. But there is an easy fix:
+    
+    
     if (!this.#map) return;
 
     const workoutEl = e.target.closest('.workout');
