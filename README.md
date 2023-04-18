@@ -1,4 +1,4 @@
-# [Mapty](your-active.netlify.app/) App
+# [Mapty](https://your-active.netlify.app/) App
 
 This is a web application where the goal is to log the workouts(running or cycling) for the users in their desired location and set some specifications 
 for their workout accordingly. 
