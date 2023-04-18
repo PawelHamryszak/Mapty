@@ -12,6 +12,7 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
 
     <link
       rel="stylesheet"
@@ -25,7 +26,6 @@
       integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
       crossorigin=""
     ></script>
-
 
     <script defer src="script.js"></script>
     <title>mapty // Map your workouts</title>
@@ -62,16 +62,20 @@
               placeholder="step/min"
             />
           </div>
+
           <div class="form__row form__row--hidden">
             <label class="form__label">Elev Gain</label>
+
             <input
               class="form__input form__input--elevation"
               placeholder="meters"
             />
           </div>
           <button class="form__btn">OK</button>
-        </form>   
+        </form>
       </ul>
+
+      <button class="btn--clear-all">Reset App</button>
     </div>
 
     <div id="map"></div>
