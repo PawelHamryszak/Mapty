@@ -17,4 +17,10 @@ This application is built using Advanced Javascript with Object-Oriented Program
 * All the workout information will save in the localstorage so that application will not loose its stat in case browser is load.
 * Ability to delete all workouts
 
+## How to use:
+* Allow your browser to access your current location
+* Click somewhere in the map to create a marker.
+* Fill in the fields on the left using your 'workout' details.
+
+
 This project was developed as part of the course: "The Complete JavaScript course 2022: From Zero to Expert" by Jonas Schmedtmann. All the credits should be given to the author.
